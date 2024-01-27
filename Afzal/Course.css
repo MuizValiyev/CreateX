@@ -32,11 +32,12 @@ h6 {
   font-weight: inherit;
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
-  font-family: "Space Mono",monospace;
+  font-family: "Space Mono", monospace;
 }
+
 section {
   width: 1400px;
   display: flex;
@@ -64,24 +65,65 @@ nav {
   margin-right: 100px;
 
 }
-nav a{
+
+nav a {
   color: var(--gray-800, #424551);
 }
-nav a:hover{
+
+nav a:hover {
   color: rgba(255, 63, 58, 1);
   transition: ease 0.5s;
 }
 
 .buttons {
   display: inline-flex;
-align-items: center;
+  align-items: center;
   gap: 26px;
 }
-#orange-btn{
+
+#orange-btn {
   width: 150px;
   padding: 10px 0px;
   text-align: center;
-border-radius: 5px;
-background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
-color: aliceblue;
+  border-radius: 5px;
+  background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+  color: aliceblue;
+}
+
+.headline {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.headline h4 {
+  color: var(--gray-900, #1E212C);
+  /* h6 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  /* 24px */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.headline h2 {
+  color: var(--gray-900, #1E212C);
+
+  /* h1 */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 130%;
+  /* 59.8px */
+}
+
+.tabs {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
 }
