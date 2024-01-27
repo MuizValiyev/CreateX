@@ -251,7 +251,7 @@ nav {
   width: 1440px;
   margin: 0 auto;
   height: 60px;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .box_1200 {
@@ -277,4 +277,122 @@ nav {
   font-style: normal;
   font-weight: 800;
   line-height: 160%;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  margin: 0 auto;
+  gap: 150px;
+  padding: 70px;
+}
+
+.box_body_row3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+}
+
+.Who {
+  color: var(--gray-900, #1E212C);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.why {
+  color: var(--gray-900, #1E212C);
+  font-family: "Space Mono", monospace;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 130%;
+}
+
+.tempus {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.Vulputate {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.sed {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.nibh {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.eget {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.amet {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.more_btn {
+  display: inline-flex;
+  padding: 0px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+  width: 161px;
+  height: 44px;
+  transition: 0.3s;
+  padding: 14px;
+}
+
+.more_text {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.more_btn:hover{
+  transform: scale(1.03);
+  transition: 0.3s;
 }
