@@ -46,48 +46,101 @@ section {
 }
 
 nav {
-  width: 1230px;
-  height: 52px;
-  flex-shrink: 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 10px;
-  margin-bottom: 140px;
+  display: flex;
+  flex-direction: row;
+  width: 1440px;
+  margin: 0 auto;
 }
 
-.links {
-  display: inline-flex;
-  align-items: flex-start;
-  gap: 45px;
-  margin-right: 100px;
-
-}
-
-nav a {
-  color: var(--gray-800, #424551);
-}
-
-nav a:hover {
-  color: rgba(255, 63, 58, 1);
-  transition: ease 0.5s;
-}
-
-.buttons {
-  display: inline-flex;
+.box_btn_nav {
   align-items: center;
-  gap: 26px;
+  gap: 30px;
+  display: flex;
+  flex-direction: row;
 }
 
-#orange-btn {
-  width: 150px;
-  padding: 10px 0px;
-  text-align: center;
-  border-radius: 5px;
+.about,
+.Courses,
+.Events,
+.Blog,
+.Contacts {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  margin: 0px;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.about:hover,
+.Courses:hover,
+.Events:hover,
+.Blog:hover,
+.Contacts:hover {
+  transition: 0.3s;
+  transform: translateY(-5px);
+}
+
+.consultation {
+  display: flex;
+  padding: 0px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
   background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
-  color: aliceblue;
+  transition: 0.3s;
+}
+
+.get {
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+}
+
+.consultation:hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+}
+
+.login,
+.Register,
+.slesh {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+  transition: 0.3s;
+}
+
+.login:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+.Register:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
 }
 
 .headline {
