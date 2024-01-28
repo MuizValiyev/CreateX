@@ -215,6 +215,7 @@ flex-shrink: 0;
   display: flex;
   justify-content: center;
   margin-top: 100px;
+  height: 440px;
 }
 .text_about h1{
   color: var(--gray-900, #1E212C);
@@ -311,4 +312,45 @@ font-size: 13px;
 font-style: normal;
 font-weight: 400;
 line-height: 160%; /* 25.6px */
+}
+.course_curator{
+  display: flex;
+
+}
+.curator {
+  margin-left: 150px;
+  margin-top: 170px;
+}
+.img1{
+  z-index: 2000;
+  margin-top: -70px;
+  margin-left: -60px;
+}
+.img2{
+  z-index: 1;
+  margin-left: -150px;
+}
+.sections_kurator{
+  display: flex;
+ 
+}
+.course_kurator h3{
+  color: var(--gray-900, #1E212C);
+
+/* h6 */
+font-family: "Space Mono", monospace; 
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.course_kurator{
+  margin-top: 180px;
+  height: 550px;
+  width: 600px;
+}
+.header_kurator{
+  
 }
