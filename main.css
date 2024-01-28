@@ -111,7 +111,7 @@ nav {
 }
 
 .consultation:hover {
-  transform: translateY(-5px);
+  transform: scale(1.03);
   transition: 0.3s;
 }
 
