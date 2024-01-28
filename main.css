@@ -85,7 +85,7 @@ nav {
 .Blog:hover,
 .Contacts:hover {
   transition: 0.3s;
-  transform: scale(1.03);
+  transform: translateY(-5px);
 }
 
 .consultation {
@@ -110,17 +110,8 @@ nav {
   letter-spacing: 0.5px;
 }
 
-.Register {
-  color: var(--gray-800, #424551);
-  font-family: "Space Mono", monospace;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 160%;
-}
-
 .consultation:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
@@ -130,22 +121,24 @@ nav {
 }
 
 .login,
-.Register {
+.Register,
+.slesh {
   color: var(--gray-800, #424551);
   font-family: "Space Mono", monospace;
   font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: 160%;
+  transition: 0.3s;
 }
 
 .login:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
 .Register:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
@@ -195,7 +188,7 @@ nav {
 }
 
 .about_btn:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
@@ -226,7 +219,7 @@ nav {
 }
 
 .Explore_btn:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
@@ -398,7 +391,7 @@ nav {
 }
 
 .more_btn:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
@@ -465,7 +458,7 @@ nav {
 }
 
 .all_btn:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
@@ -487,8 +480,9 @@ nav {
     0px 80px 80px -20px rgba(154, 156, 165, 0.08);
   transition: 0.3s;
 }
-.box_marketing:hover{
-  transform: scale(1.03);
+
+.box_marketing:hover {
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
@@ -683,6 +677,6 @@ nav {
 
 .Experienced_btn:hover,
 .Feedback_btn:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
