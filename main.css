@@ -1053,3 +1053,59 @@ nav {
   transform: translateY(-5px);
   transition: 0.3s;
 }
+
+.sec6 {
+  background-color: #FFF;
+  display: flex;
+  padding: 50px 100px; 
+  width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.box_body_row7 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.box_body_col3 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.Certificate {
+  color: var(--gray-900, #1E212C);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.will {
+  color: var(--gray-900, #1E212C);
+  font-family: "Space Mono", monospace;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 130%;
+}
+
+.we_are_accerd {
+  color: var(--gray-800, #424551);
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.box_body_row_row {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
