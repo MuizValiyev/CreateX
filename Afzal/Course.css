@@ -55,7 +55,6 @@ nav {
   align-items: center;
   gap: 50px;
   margin-top: 10px;
-  margin-bottom: 140px;
 }
 
 .links {
@@ -80,6 +79,7 @@ nav a:hover {
   align-items: center;
   gap: 26px;
 }
+
 
 #orange-btn {
   width: 150px;
@@ -191,8 +191,25 @@ nav a:hover {
   border: 1px solid var(--gray-300, #E5E8ED);
   background: var(--white, #FFF);
 
+
   /* shadow/small */
   box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+
+  /* shadow/small */
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+    0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  transition: 0.3s;
+}
+.card img{
+  height: 575px; 
+  width: 510px;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+
 }
 
 .loadmore {
@@ -245,7 +262,7 @@ h2 {
 
 .carder {
   margin: 0 auto;
- width: 920px;
+  width: 920px;
   height: 344px;
   flex-shrink: 0;
   border-radius: 4px;
