@@ -463,13 +463,75 @@ line-height: 160%; /* 25.6px */
   padding-top: 35px;
 }
 .regiter_the_course{
-  width: 1230px;
+  width: 1030px;
+  display: flex;
+  justify-content: center;
 height: 243px;
 flex-shrink: 0;
 
 }
 
-.register_div{
+.register_div1{
   background-color: #fadcd9;
+display: flex;
+justify-content: center;
+height: 200px;
 
+}
+.register_div1 h1{
+  color: var(--gray-900, #1E212C);
+margin-top: 25px;
+height: fit-content;
+/* h2 */
+font-family: "Space Mono", monospace;
+font-size: 32px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%; /* 41.6px */
+}
+.register_div1 p{
+  color: var(--gray-900, #1E212C);
+
+  /* h5 */
+  font-family: "Space Mono", monospace;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 26px */
+}
+.schetchik{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-left: 32em;
+  margin-top: -100px;
+}
+.schetchik h4{
+  margin-left: -65px;
+}
+.forms form{
+  display: flex;
+  margin-top: 50px;
+  display: table-row;
+}
+.forms{
+  display: flex;
+  margin-top: -150px;
+margin-left: 4em;
+gap: 15px ;
+}
+.forms input{
+  padding: 11px 187px 12px 16px;
+  width: 291px;
+  align-items: center;
+  font-family: "Space Mono", monospace;
+}
+.forms label{
+  font-family: "Space Mono", monospace;
+}
+.otpravit{
+height: 25px;
+position: absolute;
+margin-left: 33em;
+margin-top: 40em;
 }
