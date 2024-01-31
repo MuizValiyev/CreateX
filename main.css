@@ -1169,3 +1169,76 @@ nav {
   background-color: #F75E05;
   transition: 0.3s;
 }
+
+.box_krug:hover {
+  fill: #FFF;
+}
+
+.sec8 {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+
+.box_body_row_sec8 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card_1-4 {
+  width: 285px;
+  height: 416px;
+  flex-shrink: 0;
+}
+
+.yellow_card {
+  width: 285px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #FFCF2D;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.box_gradient {
+  width: 285px;
+  height: 340px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #FFCF2D;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  transition: 0.3s;
+}
+
+.yellow_card:hover .box_gradient {
+  border-radius: 4px;
+  background: linear-gradient(180deg, rgba(30, 33, 44, 0.00) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.77) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%);
+}
+
+.dianne_yellow_card {
+  color: var(--gray-800, #424551);
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.CEO {
+  color: var(--gray-700, #787A80);
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
