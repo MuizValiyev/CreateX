@@ -1193,8 +1193,19 @@ nav {
   width: 285px;
   height: 416px;
   flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--gray-300, #E5E8ED);
+  background: var(--white, #FFF);
+  box-shadow: 0px 4px 4px -4px rgba(30, 33, 44, 0.03),
+    0px 12px 10px -6px rgba(154, 156, 165, 0.04),
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05),
+    0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  transition: 0.3s;
 }
-
+.card_1-4:hover{
+transform: translateY(-5px);
+transition: 0.3s;
+}
 .yellow_card {
   width: 285px;
   height: 340px;
@@ -1241,4 +1252,65 @@ nav {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
+}
+
+.sec9 {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+
+.Our_blog {
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.box_row_Sec9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.posts {
+  font-family: "Space Mono", monospace;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.go_to_blog {
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.go_to_blog_btn {
+  width: 158px;
+  height: 52px;
+  top: 7006px;
+  left: 1415px;
+  padding: 0px, 40px, 0px, 40px;
+  border-radius: 4px;
+  gap: 10px;
+  background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+  transition: 0.3s;
+}
+
+.go_to_blog_btn:hover {
+  transition: 0.3s;
+  transform: translateY(-5px);
 }
