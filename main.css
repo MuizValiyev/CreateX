@@ -1202,10 +1202,12 @@ nav {
     0px 80px 80px -20px rgba(154, 156, 165, 0.08);
   transition: 0.3s;
 }
-.card_1-4:hover{
-transform: translateY(-5px);
-transition: 0.3s;
+
+.card_1-4:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
 }
+
 .yellow_card {
   width: 285px;
   height: 340px;
@@ -1313,4 +1315,89 @@ transition: 0.3s;
 .go_to_blog_btn:hover {
   transition: 0.3s;
   transform: translateY(-5px);
+}
+
+.sec10 {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 50px 100px;
+}
+
+.box_row_sec10 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;  
+}
+
+.box_card_sec10 {
+  width: 390px;
+  top: 7118px;
+  left: 345px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.box_row_card_sec10 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.box_row_card_sec10 p {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.box_row_card_sec10 svg {
+  margin-top: 5px;
+}
+
+.money {
+  font-family: "Space Mono", monospace;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.gravida {
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Listen {
+  font-family: "Space Mono", monospace;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.box_listen{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100px;
+}
+
+.box_listen1{
+  margin-top: 35px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100px;
 }
