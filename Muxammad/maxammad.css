@@ -47,10 +47,14 @@ header {
 }
 
 nav {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   display: flex;
   flex-direction: row;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .box_btn_nav {
@@ -59,6 +63,7 @@ nav {
   display: flex;
   flex-direction: row;
 }
+
 .about,
 .Courses,
 .Events,
@@ -82,7 +87,7 @@ nav {
 .Blog:hover,
 .Contacts:hover {
   transition: 0.3s;
-  transform: scale(1.03);
+  transform: translateY(-5px);
 }
 
 .consultation {
@@ -107,15 +112,6 @@ nav {
   letter-spacing: 0.5px;
 }
 
-.Register {
-  color: var(--gray-800, #424551);
-  font-family: "Space Mono", monospace;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 160%;
-}
-
 .consultation:hover {
   transform: scale(1.03);
   transition: 0.3s;
@@ -127,22 +123,24 @@ nav {
 }
 
 .login,
-.Register {
+.Register,
+.slesh {
   color: var(--gray-800, #424551);
   font-family: "Space Mono", monospace;
   font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: 160%;
+  transition: 0.3s;
 }
 
 .login:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
 .Register:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 .user_experience{
