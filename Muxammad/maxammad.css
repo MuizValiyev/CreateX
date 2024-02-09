@@ -47,10 +47,14 @@ header {
 }
 
 nav {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
   display: flex;
   flex-direction: row;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .box_btn_nav {
@@ -59,6 +63,7 @@ nav {
   display: flex;
   flex-direction: row;
 }
+
 .about,
 .Courses,
 .Events,
@@ -82,7 +87,7 @@ nav {
 .Blog:hover,
 .Contacts:hover {
   transition: 0.3s;
-  transform: scale(1.03);
+  transform: translateY(-5px);
 }
 
 .consultation {
@@ -107,42 +112,48 @@ nav {
   letter-spacing: 0.5px;
 }
 
-.Register {
-  color: var(--gray-800, #424551);
-  font-family: "Space Mono", monospace;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 160%;
-}
-
 .consultation:hover {
   transform: scale(1.03);
   transition: 0.3s;
 }
-
+.consultation2{
+  display: flex;
+  padding: 0px 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+  transition: 0.3s;
+}
+.consultation2:hover{
+  transition: 0.3s;
+  transform: translateY(-5px);
+}
 .box {
   display: flex;
   flex-direction: row;
 }
 
 .login,
-.Register {
+.Register,
+.slesh {
   color: var(--gray-800, #424551);
   font-family: "Space Mono", monospace;
   font-size: 16px;
   font-style: normal;
   font-weight: 800;
   line-height: 160%;
+  transition: 0.3s;
 }
 
 .login:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 
 .Register:hover {
-  transform: scale(1.03);
+  transform: translateY(-5px);
   transition: 0.3s;
 }
 .user_experience{
@@ -521,10 +532,11 @@ margin-left: 4em;
 gap: 15px ;
 }
 .forms input{
-  padding: 11px 187px 12px 16px;
+  padding: 11px 16px 12px 16px;
   width: 291px;
   align-items: center;
   font-family: "Space Mono", monospace;
+  outline: none;
 }
 .forms label{
   font-family: "Space Mono", monospace;
@@ -535,6 +547,7 @@ position: absolute;
 margin-left: 33em;
 margin-top: 40em;
 }
+<<<<<<< HEAD
 .right_block{
   display: flex;
   display: table-row;
@@ -617,3 +630,5 @@ display: table-row;
 .lessons{
   width: 600px;
 }
+=======
+>>>>>>> de2ccf4c97b761fa45c6c1fd5bf4dc35620ec51f
