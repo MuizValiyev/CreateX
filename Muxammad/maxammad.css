@@ -468,7 +468,7 @@ line-height: 160%; /* 25.6px */
   justify-content: center;
 height: 243px;
 flex-shrink: 0;
-
+margin-top: 150px;
 }
 
 .register_div1{
@@ -476,7 +476,7 @@ flex-shrink: 0;
 display: flex;
 justify-content: center;
 height: 200px;
-
+margin-top: 150px;
 }
 .register_div1 h1{
   color: var(--gray-900, #1E212C);
@@ -534,4 +534,86 @@ height: 25px;
 position: absolute;
 margin-left: 33em;
 margin-top: 40em;
+}
+.right_block{
+  display: flex;
+  display: table-row;
+}
+.right_block p{
+  color: var(--gray-900, #1E212C);
+
+/* h6 */
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.right_block h1{
+  width: 492px;
+  color: var(--gray-900, #1E212C);
+
+/* h1 */
+font-family: Lato;
+font-size: 46px;
+font-style: normal;
+font-weight: 900;
+line-height: 130%; /* 59.8px */
+}
+.obshiy_block{
+  margin-top: 150px;
+  display: flex ;
+  justify-content: center;
+}
+.text_from_the_course{
+  width: 600px;
+  display: flex;
+  display: table-row;
+  text-align: center;
+  padding-top: 35px;
+}
+.text_from_the_course img{
+  margin-right: 12px;
+}
+.obshiy_block_program{
+  display: flex;
+  width: 1230px;
+  height: 680px;
+}
+.right_program{
+  display: flex;
+display: table-row;
+}
+.right_program h6,h1,p{
+  font-family: "Space Mono", monospace;
+}
+.right_program h6{
+    text-transform: uppercase;
+}
+.right_program h1{
+  height: 60px;
+  width: 410px;
+  font-size: 39px;
+}
+/* 
+ */
+ 
+ .toggle-text {
+  display: none;
+  margin-left: 15px;
+}
+.toggle-symbol {
+  color: #FF3F3A;
+  width: 10px;
+  display: inline-block;
+  font-size: 20px; /* Добавьте это, чтобы увеличить размер символов */
+  line-height: 20px; /* Это поможет выровнять символы по вертикали */
+}
+.lesson-title {
+  color: #FF3F3A;
+}
+.lessons{
+  width: 600px;
 }

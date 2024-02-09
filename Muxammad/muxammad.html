@@ -186,7 +186,7 @@
     <form>
         
         <label  for="fname">  Full name</label><br><br>
-        <input type="text" placeholder="Your full name" id="fname" name="fname">
+        <input type="name" placeholder="Your full name" id="fname" name="fname">
 </form>
     <form>
         
@@ -204,6 +204,85 @@
 </a>
 </div>
 </section>
+<section class="from_the_course"> 
+<div class="obshiy_block">
+    <div class="right_block">
+        <p>For whom?</p>
+        <h1>Who will benefit from the course:</h1>
+    </div>
+   <div class="text_from_the_course">
+    <p><img src="/img/check.png" alt="">Specialists with more than 1 year of active work experience</p><br>
+    <p><img src="/img/check.png" alt="">Mobile app designers who want to improve their skills in <br>solving business problems, creating and testing <br>human-centered interfaces</p><br>
+    <p><img src="/img/check.png" alt="">Professional designers who want to feel more confident in UX</p><br>
+    <p><img src="/img/check.png" alt="">Specialists who would like to structure their knowledge, fill in the gaps</p>
+   </div>
+</div>
+</section>
+<section class="course_program">
+    <div class="obshiy_block_program">
+        <div class="right_program">
+            <h6>Course program</h6><br>
+            <h1>What will you learn</h1>
+  
+<div class="lessons">
 
+
+<div class="lesson">
+    <h3 onclick="toggleText('lesson1', 'toggle-symbol1')"><span id="toggle-symbol1" class="toggle-symbol">+</span><span id="lesson1-title" class="lesson-title"> Lesson 1.  </span>Aliquet lectus urna viverra in odio.</h3>
+    <p id="lesson1" class="toggle-text">Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. Commodo nunc orci vitae accumsan id.</p>
+</div>
+<div class="lesson">
+    <h3 onclick="toggleText('lesson2', 'toggle-symbol2')"><span id="toggle-symbol2" class="toggle-symbol">+</span><span id="lesson2-title" class="lesson-title"> Lesson 2.</span>Orci commodo, viverra orci mollis ut euismod.</h3>
+    <p id="lesson2" class="toggle-text">Aliquet lectus urna viverra in odio...</p>
+</div>
+<div class="lesson">
+    <h3 onclick="toggleText('lesson3', 'toggle-symbol3')"><span id="toggle-symbol3" class="toggle-symbol">+</span><span id="lesson3-title" class="lesson-title"> Lesson 3</span>Sagittis vitae facilisi rutrum amet mauris quisque vel.</h3>
+    <p id="lesson3" class="toggle-text">Aliquet lectus urna viverra in odio...</p>
+</div>
+<div class="lesson">
+    <p onclick="toggleText('lesson4', 'toggle-symbol4')"><span id="toggle-symbol4" class="toggle-symbol">+</span><span id="lesson4-title" class="lesson-title"> Lesson 4</span></p>
+    <p id="lesson4" class="toggle-text">Aliquet lectus urna viverra in odio...</p>
+</div>
+<div class="lesson">
+    <p onclick="toggleText('lesson5', 'toggle-symbol5')"><span id="toggle-symbol5" class="toggle-symbol">+</span><span id="lesson5-title" class="lesson-title"> Lesson 5</span></p>
+    <p id="lesson5" class="toggle-text">Aliquet lectus urna viverra in odio...</p>
+</div>
+<div class="lesson">
+    <p onclick="toggleText('lesson6', 'toggle-symbol6')"><span id="toggle-symbol6" class="toggle-symbol">+</span><span id="lesson6-title" class="lesson-title"> Lesson 6</span></p>
+    <p id="lesson6" class="toggle-text">Aliquet lectus urna viverra in odio...</p>
+</div>
+<div class="lesson">
+    <p onclick="toggleText('lesson7', 'toggle-symbol7')"><span id="toggle-symbol7" class="toggle-symbol">+</span><span id="lesson7-title" class="lesson-title"> Lesson 7</span></p>
+    <p id="lesson7" class="toggle-text">Aliquet lectus urna viverra in odio...</p>
+</div>
+<div class="lesson">
+    <p onclick="toggleText('lesson8', 'toggle-symbol8')"><span id="toggle-symbol8" class="toggle-symbol">+</span><span id="lesson8-title" class="lesson-title"> Lesson 8</span></p>
+    <p id="lesson8" class="toggle-text">Aliquet lectus urna viverra in odio...</p>
+</div>
+
+<!-- Repeat similar divs for other lessons -->
+
+<script>
+function toggleText(id, symbolId) {
+    var text = document.getElementById(id);
+    var symbol = document.getElementById(symbolId);
+
+    if (text.style.display === "none") {
+        text.style.display = "block";
+        symbol.textContent = "-";
+    } else {
+        text.style.display = "none";
+        symbol.textContent = "+";
+    }
+}
+</script>
+</div>
+
+
+        </div>
+    </div>
+
+
+</section>
 </body>
 </html>
