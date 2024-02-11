@@ -1456,6 +1456,7 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  z-index: 2;
 }
 
 .box_btn_Subscribe {
