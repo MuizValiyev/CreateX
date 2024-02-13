@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 50px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.box_btn_nav {
+    align-items: center;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.Courses,
+.about,
+.Events,
+.Contacts {
+    color: var(--gray-800, #424551);
+    font-family: "Space Mono", monospace;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    margin: 0px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.Blog {
+    color: var(--gray-800, #FF3F3A);
+    font-family: "Space Mono", monospace;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    margin: 0px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.about:hover,
+.Courses:hover,
+.Events:hover,
+.Blog:hover,
+.Contacts:hover {
+    transition: 0.3s;
+    transform: translateY(-5px);
+}
+
+.consultation {
+    display: flex;
+    padding: 0px 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--btn-gradient, linear-gradient(56deg, #FF3F3A 0%, #F75E05 100%));
+    transition: 0.3s;
+}
+
+.get {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 52px;
+    letter-spacing: 0.5px;
+}
+
+.consultation:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.login,
+.Register,
+.slesh {
+    color: var(--gray-800, #424551);
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    transition: 0.3s;
+}
+
+.login:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+.Register:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
